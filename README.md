@@ -37,29 +37,6 @@ In this scenario:
 
 This integration improves operational efficiency, reduces manual processing, enhances document traceability, and minimizes human error.
 ```
----
-
-## System Architecture
-
-```
-ERP System
-      │
-      │ Vendor Master Data
-      ▼
-Vendor Web Application
-      │
-      │ REST API
-      ▼
-Finance Approval System
-      │
-      │ Generate Digital Signature
-      ▼
-Vendor Web Application
-      │
-      │ REST API
-      ▼
-ERP System
-```
 
 ---
 
