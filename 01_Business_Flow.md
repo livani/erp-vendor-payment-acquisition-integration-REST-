@@ -73,7 +73,7 @@ The Vendor Web Application retrieves the latest document status from the ERP sys
 ---
 
 ## End-to-End Business Flow
-
+```text
 
 ERP System
       │
@@ -98,7 +98,7 @@ Vendor Web Application
       │ Update Document Status
       ▼
 ERP System
-
+```
 ---
 
 ## Business Outcome
