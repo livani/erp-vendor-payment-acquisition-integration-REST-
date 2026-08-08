@@ -19,10 +19,10 @@ The Integration Layer is responsible for transforming and routing data between t
 | Contract Number | `contract_number` | `contract_number` | `contract_number` | VARCHAR | 50 | Required; must exist |
 | Work Description | `work_description` | `work_description` | `work_description` | VARCHAR | 500 | Required; cannot be empty |
 | Invoice Number | `invoice_number` | `invoice_number` | `invoice_number` | VARCHAR | 50 | Required; must be unique |
-| Invoice Amount | `invoice_amount` | `invoice_amount` | `invoice_amount` | DECIMAL | 18,2 | Required; must be greater than 0 |
+| Invoice Amount | `invoice_amount` | `invoice_amount` | `invoice_amount` | DECIMAL | 18,2 | Required; not allowed null value |
 | Invoice Date | `invoice_date` | `invoice_date` | `invoice_date` | DATE | — | Required; valid date |
 | Currency Code | `currency_code` | `currency_code` | `currency_code` | CHAR | 3 | Required; valid ISO 4217 code |
-| Approval Document | `approval_document` | `signed_document` | `approval_document` | PDF | — | Required after approval; digitally signed |
+| Approval Document | `approval_document` | `signed_document` | `approval_document` | BLOB | — | Required after approval; only PDF Format; <64kb |
 | Created Date | `created_date` | `created_date` | `created_date` | DATETIME | — | System generated |
 
 
