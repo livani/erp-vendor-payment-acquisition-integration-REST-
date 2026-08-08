@@ -18,6 +18,8 @@ The following ERD illustrates the relationships between the business entities in
 
 **Figure 1. Entity Relationship Diagram**
 
+---
+
 ### Relationship
 
 - One Vendor can have multiple Contracts.
@@ -42,7 +44,8 @@ The following ERD illustrates the relationships between the business entities in
 
 **Relationship:** `Invoice 1 : 1 Approval Document`
 
- Relationships Summary
+---
+# Relationships Summary
 
 | Parent Entity | Child Entity | Relationship |
 |---|---|---|
@@ -53,10 +56,9 @@ The following ERD illustrates the relationships between the business entities in
 
 The Integration Log and Error Log have no foreign-key relationships to the business entities because they serve as independent technical records of integration activity.
 
-
+---
 
 ### Tables
----
 
 # 1. Vendor
 
