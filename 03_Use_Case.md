@@ -1,3 +1,5 @@
+# Use Case
+
 ## Purpose
 
 This document describes the functional interactions between users and the ERP Vendor Payment Integration solution. It identifies the primary actors, their responsibilities, and the business functions supported by the system.
