@@ -1,3 +1,5 @@
+# HTTP Request
+
 ## Purpose
 
 This document describes the HTTP requests used in the ERP Vendor Payment Integration process.
