@@ -1,3 +1,5 @@
+#Business Flow
+
 ## Overview
 
 The Vendor Payment Acquisition Integration automates the payment acquisition process between the ERP system, the Vendor Web Application, and the Finance Approval System. The integration eliminates manual document exchange by allowing vendors to submit payment acquisition requests digitally and enabling finance users to review, approve, and digitally sign payment acquisition documents.
