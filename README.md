@@ -47,17 +47,17 @@ README.md
 
 01_Business_Flow.md
 
-02_Use_Cases.md
+02_System_Architecture.md
 
-03_Field_Mapping.md
+03_Use_Case.md
 
-04_API_Documentation.md
+04_Data_Mapping.md
 
-05_Database_Design.md
+05_Database.md
 
-06_SQL_Validation_Queries.md
+06_HTTP_Request.md
 
-07_Postman_Collection.md
+07_HTTP_Response.md
 
 08_Testing_Scenarios.md
 
