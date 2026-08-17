@@ -61,7 +61,7 @@ README.md
 
 08_Testing_Scenarios.md
 
-09_Issue_Log_&_Troubleshooting.md
+09_Issue_Log_and_Troubleshooting.md
 
 10_Lessons_Learned.md
 
