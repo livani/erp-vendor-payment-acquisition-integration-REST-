@@ -132,41 +132,6 @@ The request does not contain the approval document because the document is gener
 
 ---
 
-## Request Data Mapping
-
-| Request Field      | Source        | Data Type | Required | Validation                   |
-| ------------------ | ------------- | --------- | -------- | ---------------------------- |
-| `vendor_id`        | Vendor Portal | String    | Yes      | Vendor must exist            |
-| `vendor_name`      | Vendor Portal | String    | Yes      | Must not be empty            |
-| `tax_number`       | Vendor Portal | String    | Yes      | Valid vendor tax number      |
-| `contract_number`  | Vendor Portal | String    | Yes      | Contract must exist          |
-| `work_description` | Vendor Portal | String    | Yes      | Must not be empty            |
-| `invoice_id`       | Vendor Portal | String    | Yes      | Invoice must exist           |
-| `invoice_amount`   | Vendor Portal | Decimal   | Yes      | Must be greater than 0       |
-| `invoice_date`     | Vendor Portal | Date      | Yes      | Valid date                   |
-| `currency`         | Vendor Portal | String    | Yes      | Valid ISO 4217 currency code |
-
-The fields correspond to the data defined in `04_Data_Mapping.md`.
-
----
-
-## Request Validation
-
-Before the request is processed by the Finance Portal, the Integration Layer validates the incoming request.
-
-### Mandatory Field Validation
-
-The following fields must be present:
-
-* Vendor ID
-* Vendor Name
-* Tax Number
-* Contract Number
-* Work Description
-* Invoice ID
-* Invoice Amount
-* Invoice Date
-* Currency
 
 ### Business Validation
 
@@ -239,7 +204,7 @@ Example:
 GET /invoice?approval_document_id=1&vendor_id=1
 ```
 
-The actual production host and endpoint configuration are intentionally omitted.
+> The actual production host and endpoint configuration of this project are intentionally omitted.
 
 ---
 
